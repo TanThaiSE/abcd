@@ -1,0 +1,18 @@
+const NS_STUDENT_STORE = "studentStore";
+
+const SET_LOADING_STEP = `${NS_STUDENT_STORE}/setGlobalLoading`;
+
+const GET_ALL_STUDENTS = `${NS_STUDENT_STORE}/getAllStudents`;
+
+const SAVE_ALL_STUDENTS = `${NS_STUDENT_STORE}/saveALlStudents`;
+
+const CREATE_STUDENT_REQUEST = `${NS_STUDENT_STORE}/createStudentRequest`;
+const CREATE_STUDENT_SUCCESS = `${NS_STUDENT_STORE}/createStudentSuccess`;
+export {
+  NS_STUDENT_STORE,
+  SET_LOADING_STEP,
+  GET_ALL_STUDENTS,
+  SAVE_ALL_STUDENTS,
+  CREATE_STUDENT_REQUEST,
+  CREATE_STUDENT_SUCCESS,
+};
